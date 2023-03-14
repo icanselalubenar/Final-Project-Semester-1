@@ -14,6 +14,12 @@ struct laundryAcc {
 
 void topBar();
 void selectDuration(int selectDuration);
+void topBar() {
+	system("cls");
+	cout << "+---------------------------------------------------------------------+" << endl;
+	cout << "|                         AMIKOM LAUNDRY APP                          |" << endl;
+	cout << "+---------------------------------------------------------------------+" << endl;
+}
 
 int main()
 {
@@ -120,12 +126,6 @@ int main()
 		}
 	}
 
-}
-void topBar() {
-	system("cls");
-	cout << "+---------------------------------------------------------------------+" << endl;
-	cout << "|                         AMIKOM LAUNDRY APP                          |" << endl;
-	cout << "+---------------------------------------------------------------------+" << endl;
 }
 
 void selectDuration(int selectDuration) {
